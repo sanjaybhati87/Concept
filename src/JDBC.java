@@ -10,6 +10,21 @@ public class JDBC {
 		private static final String user="user";
 		private static final String pwd = "password";
 		
+		static 
+		{
+			try
+			{
+			Class.forName(Driver);
+			}
+			catch(ClassNotFoundException ex)
+			{
+				ex.printStackTrace();
+			}
+			
+			
+			
+		}
+		
 		
 		
 		
