@@ -12,7 +12,17 @@ public class JDBC {
 		
 		
 		
-		
+		public static void closeConnection() 
+		{
+			if(con!=null)
+			{
+				try {
+					con.close();
+				} catch (SQLException e) {
+
+				}
+			}
+		}
 		
 
 	

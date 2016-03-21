@@ -41,4 +41,9 @@ class DerivedLoan extends PersnonalLoa
 	{
 		return i*3*4;
 	}
+	
+	public void ExtraMethodForBufFix()
+	{
+		System.out.println("Extra code for bug fixed");
+	}
 }
